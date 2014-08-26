@@ -1,5 +1,18 @@
 $(document).ready(function(){
   $("#r1").click(function(){
-    $("#m2").hide();  
+    $(".menu").hide();  
+    $("#m1").show();  
+  });
+    $("#r2").click(function(){
+    $(".menu").hide();  
+    $("#m2").show();  
+  });
+    $("#r3").click(function(){
+    $(".menu").hide();  
+    $("#m3").show();  
+  });
+    $("#r4").click(function(){
+    $(".menu").hide();  
+    $("#m4").show();  
   });
 });
