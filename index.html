@@ -1,1 +1,111 @@
-The App1 Repo
+<!DOCTYPE HTML>
+<html>
+<head><meta charset="UTF-8">
+<title>Order Form</title>
+<meta name="description" content="Restaurants Around The Bay Area">
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Restaurants | Restaurants Around The Bay Area."/>
+<meta property="og:url" content="https://maaaryle.github.io"/>
+<meta property="og:image" content="http://www.skiholidaysmariaalm.com/wp-content/uploads/2012/06/posterfoodlogoforkknifeprint-892aae035d3c5a05bf4a00bb38c3b320_h.jpg"/>
+<meta property="og:site_name" content="maaaryle.github.io"/>
+<meta property="og:description" content="Decide on what you want to eat in seconds."/>
+</head>
+<body>
+<h1>Order Form</h1>
+<form action="" method="POST">
+
+<div>
+  <img src="http://www.skiholidaysmariaalm.com/wp-content/uploads/2012/06/posterfoodlogoforkknifeprint-892aae035d3c5a05bf4a00bb38c3b320_h.jpg">
+</div>  
+  
+<div>
+  <lable>name</lable>
+  <input type="text" name="text" required placeholder="Last, First">
+</div>
+  
+<div>
+  <lable>email</lable>
+  <input type="email" name="email" required placeholder="email address">
+</div>
+  <div>
+<ul>
+    <a href="#r1" id="r1" class="R">McDonald's</a>
+    <a href="#r2" id="r2" class="R">La Foret</a>
+    <a href="#r3" id="r3" class="R">Boiling Crab</a>
+    <a href="#r4" id="r4" class="R">Bill's Cafe</a>
+  </ul>
+</div>
+  
+<div class="menu" id="m1">
+  <h4>McDonald's Menu</h4>
+  <ul>
+  <li><input type="checkbox">Burgers</li>
+  <li><input type="checkbox">Chicken Nuggets</li>
+  <li><input type="checkbox">Fries</li>
+  <li><input type="checkbox">Soda</li>
+  </ul> 
+</div>
+  
+<div class="menu" id="m2">
+  <h4>La Foret's Menu</h4>
+  <ul>
+    <li><input type="checkbox">French Onion Soup</li>
+    <li><input type="checkbox">Steak</li>
+    <li><input type="checkbox">Creme Brulee</li>
+    <li><input type="checkbox">Wine</li>
+  </ul> 
+</div>
+
+<div class="menu" id="m3">
+  <h4>Boiling Crab's Menu</h4>
+  <ul>
+    <li><input type="checkbox">Shrimp</li>
+    <li><input type="checkbox">Blue Crab</li>
+    <li><input type="checkbox">Cajun Fries</li>
+    <li><input type="checkbox">Beer</li>
+  </ul> 
+</div>
+  
+<div class="menu" id="m4">
+  <h4>Bill's Cafe's Menu</h4>
+  <ul>
+    <li><input type="checkbox">Eggs</li>
+    <li><input type="checkbox">French Toast</li>
+    <li><input type="checkbox">Hash Browns</li>
+    <li><input type="checkbox">OJ</li>
+  </ul> 
+</div>
+  
+<div>
+  <button type="submit">Submit Order</button>
+</div>
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</form>
+
+$(document).ready(function(){
+  $("#r1").click(function(){
+    $(".menu").hide();  
+    $("#m1").show();  
+  });
+    $("#r2").click(function(){
+    $(".menu").hide();  
+    $("#m2").show();  
+  });
+    $("#r3").click(function(){
+    $(".menu").hide();  
+    $("#m3").show();  
+  });
+    $("#r4").click(function(){
+    $(".menu").hide();  
+    $("#m4").show();  
+  });
+});
+
+</body>
+</html>
+
+
