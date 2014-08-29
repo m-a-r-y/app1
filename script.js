@@ -48,7 +48,7 @@ $(document).ready(function(){
             sum = sum - parseInt($(this).attr("data-price"));
         }
 
-        $("#count").text("You've selected " + $("input:checked").length + " items!");
+        $("#count").text("You've selected " + $("input:checked").length + " item(s)!");
         $("#total").text("Total amount due: $"+ sum + ".");
 
 
