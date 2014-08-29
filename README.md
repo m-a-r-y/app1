@@ -1,2 +1,2 @@
-app1
+Restaurant App
 ====
