@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>MY RESTAURANT APP</title>
+    <meta name="description" content="Restaurants Around The Bay Area">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Restaurants | Restaurants Around The Bay Area."/>
+    <meta property="og:url" content="https://maaaryle.github.io"/>
+    <meta property="og:image" content="http://www.skiholidaysmariaalm.com/wp-content/uploads/2012/06/posterfoodlogoforkknifeprint-892aae035d3c5a05bf4a00bb38c3b320_h.jpg"/>
+    <meta property="og:site_name" content="maaaryle.github.io"/>
+    <meta property="og:description" content="Decide on what you want to eat in seconds."/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<header>
+    <h1>Restaurants Around The Bay Area</h1>
+</header>
+
+<body>
+<form action="" method="POST">
+            
+            <!--IMAGE-->
+    <div>
+        <img src="http://www.skiholidaysmariaalm.com/wp-content/uploads/2012/06/posterfoodlogoforkknifeprint-892aae035d3c5a05bf4a00bb38c3b320_h.jpg">
+    </div>
+
+            <!--RESTAURANT LIST & MENU ITEMS-->
+    <section>
+        <select id="restaurantList"></select>
+        <ul id="menuItems"></ul>
+    </section>
+
+            <!--TOTAL ITEM COUNT & PRICE-->
+    <section>
+        <div id="count"></div>
+        <div id="total"></div>
+    </section>
+
+            <!--USER INPUT-->
+    <section class="userInput">
+        <div>
+            <lable id="phone">phone</lable>
+            <input id="text" name="text" required placeholder="(xxx)xxx-xxxx">
+        </div>
+        <div>
+            <lable>email</lable>
+            <input type="email" name="email" required placeholder="email address">
+        </div>
+        <div>
+            <lable>comments</lable>
+            <input type="comment" name="comment" required placeholder="additional comments">
+        </div>
+    </section>
+
+
+            <!--SUBMIT BUTTON-->
+    <div>
+        <button type="submit">Submit Order</button>
+    </div>
+
+            <!--THE END!!-->
+    <footer>COPYRIGHTS!!</footer>
+
+
+</form>
+
+</body>
+</html>
