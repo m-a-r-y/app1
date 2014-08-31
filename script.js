@@ -110,13 +110,15 @@ $('#submit').on('click', function(e){
         });
         item = item.join(",");
 
-console.log(comment);
-alert("thank you, come again");
-
-saveNewRestaurantItem(email, comment, phone, item);
+// console.log(comment);
+// alert("thank you, come again");
+    saveNewRestaurantItem(email, comment, phone, item);
 })
 
+$('button').click(function(){
+    window.location.href='orderpage.html';
 });
 
+});
 
 
