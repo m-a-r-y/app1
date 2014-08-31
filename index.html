@@ -33,7 +33,7 @@
 
             <!--RESTAURANT LIST & MENU ITEMS-->
     <section>
-        <select id="restaurantList"></select>
+        <select id="restaurantList"><option>Please Select Restaurant</option></select>
         <ul id="menuItems"></ul>
     </section>
 
@@ -46,23 +46,23 @@
             <!--USER INPUT-->
     <section class="userInput">
         <div>
-            <lable id="phone">phone</lable>
-            <input id="text" name="text" required placeholder="(xxx)xxx-xxxx">
+            <lable>phone</lable>
+            <input id="phone" name="text" required placeholder="(xxx)xxx-xxxx">
         </div>
         <div>
             <lable>email</lable>
-            <input type="email" name="email" required placeholder="email address">
+            <input id="email" type="email" name="email" required placeholder="email address">
         </div>
         <div>
             <lable>comments</lable>
-            <input type="comment" name="comment" required placeholder="additional comments">
+            <input id="comments" type="comment" name="comment" required placeholder="additional comments">
         </div>
     </section>
 
 
             <!--SUBMIT BUTTON-->
     <div>
-        <button type="submit">Submit Order</button>
+        <button id="submit" type="submit">Submit Order</button>
     </div>
 
             <!--THE END!!-->
