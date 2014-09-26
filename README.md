@@ -10,6 +10,3 @@ Working restaurant app - parse
 
 
 
-
-
-
